@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.iweather.activity.Main2Activity"
+    android:background="@color/colorAccent"
+    >
+
+    <com.example.iweather.widget.PinChart
+        android:id="@+id/pinchart"
+        android:layout_width="544dp"
+        android:layout_height="185dp" />
+
+    <com.example.iweather.widget.WeatnerChartView
+        android:id="@+id/weather_char1"
+        android:layout_width="match_parent"
+        android:layout_height="155dp" />
+
+
+    <com.example.iweather.widget.WeatnerChartView
+        android:id="@+id/weather_char2"
+        android:layout_width="match_parent"
+        android:layout_height="155dp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="阴晴--白雨箫，郭旭，黄咏璇">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_city"
+                    android:title="选择城市"/>
+            </group>
+        </menu>
+    </item>
+   <item android:id="@+id/show_location"
+    android:icon="@mipmap/icon_menu_city"
+    android:title="定位地图及本地天气"/>
+    <item android:id="@+id/show_chart"
+        android:title="天气信息图表显示"/>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--
+    	Define the database name of your application.
+    	By default each database name should be end with .db.
+    	If you didn't name your database end with .db,
+    	LitePal would plus the suffix automatically for you.
+    	For example:
+    	<dbname value="demo" />
+    -->
+    <dbname value="weather" />
+    <version value="3" />
+
+    <!--
+    	Define your models in the list with mapping tag, LitePal will
+    	create tables for each mapping class. The supported fields
+    	defined in models will be mapped into columns.
+    	For example:
+    	<list>
+    		<mapping class="com.test.model.Reader" />
+    		<mapping class="com.test.model.Magazine" />
+    	<st>
+    -->
+    <list>
+        <mapping class="com.wan.weather.bean.JsonData" />
+    </list>
+</litepal>

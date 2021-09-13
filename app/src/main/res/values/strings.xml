@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">雾霾</string>
+    <string name="close_nav">关闭侧滑栏</string>
+    <string name="open_nav">打开侧滑栏</string>
+    <string name="open_source_hefeng">• 和风天气数据支持</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
