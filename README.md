@@ -324,7 +324,7 @@ Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'xxx
 ```
 出现这种现象基本均为流程和视图不匹配，比如说添加控件却没有在layout中进行定义，将控件添加到一个空的地方即为空指针异常，因此需仔细核对layout与activity的关联性即可找出问题。
 
-## 10.CSDN
+## 10.声明
 
 此次项目是在网上开源demo上进行修改与添加功能而得，如有侵权请及时告知。
 
